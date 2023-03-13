@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.footer1, .footer2 {
+}
+@media screen and (min-width=768px){
+.hamburger {
+    display: none;
+}
+    .join-us {
+    display: none;
+}
+}
