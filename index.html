@@ -7,11 +7,10 @@
     <title>My 1st Capstone Project</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
  
 </head>
 <body>
-    <header>
+    <header id="header1">
         <nav id="nav1"alt="first-navigation">
             <i class="fa-brands fa-facebook-f"></i>
             <i class="fa-brands fa-twitter"></i>
@@ -22,10 +21,9 @@
             </ul>
         </nav>
     </header>
-    <header>
+    <header id="header2">  
         <nav id="nav2" alt="second-navigation">
-            <a href="#about" class="main-logo">Django Girls</a>
-            <i id="hamburger" class="fa-sharp fa-solid fa-bars"></i>
+            <a href="#about" class="main-logo">Django Girls</a> 
             <ul>
                 <li>About</li>
                 <li>Program</li>
@@ -36,31 +34,36 @@
             <a href="#about" class="second-logo">Geeky Girls</a>
         </nav>
     </header>
+    <header id="mobile-header">
+      <nav>
+        <i id="hamburger" class="fa-sharp fa-solid fa-bars"></i>
+      </nav>
+    </header>
 
     <section class="mobilemain">
         <article class="about-page">
-            <h3 class="intro-title1">Hello Geeky Girls!</h3>
-            <h1 class="intro-title2">Django Girls <br> Global Conference <br> 2024</h1>
-            <div class="brief-explanation">
-                <p class="explanation-paragraph" alt="explanation-paragraph">
-                    Django Girls is a non-profit organization and a community that empowers and helps women to organize free, one-day programming workshops that help the build their first web application using HTML, CSS, Python and Django. 
-                </p>
-            </div>
-            <h4 class="event-date" alt="event-date"> 03.02.2024(TUE) - 06(FRI)</h4>
-            <div class="copyright">&copy; Nakuru, Kenya </div>
+          <h3 class="intro-title1">Hello Geeky Girls!</h3>
+          <h1 class="intro-title2">Django Girls <br> Global Conference <br> 2024</h1>
+            <p class="explanation-paragraph" alt="explanation-paragraph">
+               Django Girls is a non-profit organization and a community that empowers and helps women to organize free, one-day programming workshops that help the build their first web application using HTML, CSS, Python and Django. 
+            </p>
+          <h4 class="event-date" alt="event-date"> 03.02.2024(TUE) - 06(FRI)</h4>
+          <div class="copyright">&copy; Nakuru, Kenya </div>
         </article>
 
         <article id="languages-offered">
             <h5 class="languages-title"> Tech Stack Offered For the Workshop</h5>
-            <div class="card" style="width: 16rem;">
-                <img class="card-img-top" alt="Card image cap"> <i id="python" class="fa-brands fa-python"></i>
+
+            <div class="cards">
+              <div class="cards card1" alt="Card1">
+                <i id="python" class="fa-brands fa-python"></i>
                 <div class="card-body">
                   <h5 class="card-title">Python</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
 
-              <div class="card" style="width: 16rem;">
+              <div class="cards card2" alt="Card2">
                 <img class="card-img-top" alt="Card image cap"> <i id=html class="fa-brands fa-python"></i>
                 <div class="card-body">
                   <h5 class="card-title">HTML</h5>
@@ -68,7 +71,7 @@
                 </div>
               </div>
 
-              <div class="card" style="width: 16rem;">
+              <div class="cards card3" alt="Card3">
                 <img class="card-img-top" alt="Card image cap"> <i id="css" class="fa-brands fa-css3-alt"></i>
                 <div class="card-body">
                   <h5 class="card-title">CSS</h5>
@@ -76,7 +79,7 @@
                 </div>
               </div>
 
-              <div class="card" style="width: 16rem;">
+              <div class="cards card4" alt="Card4;">
                 <img class="card-img-top" alt="Card image cap"> 
                 <div class="card-body">
                     <i id="Django" class="fa-duotone fa-user-bounty-hunter"></i>
@@ -84,9 +87,10 @@
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
+            </div>
 
-              <a href="languages-offered" class="view-all"></a>
-              <button class="join-us">Join Us Today!</button>
+            <a href="languages-offered" class="view-all"></a>
+            <button class="join-us">Join Us Today!</button>
         </article>
 
         <section id="speakers">

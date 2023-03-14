@@ -1,12 +1,152 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    max-height: 1000000px;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.header1, .header2 {
+  display: none;
+}
+
+#nav1, #nav2 {
+  display: none;
+}
+
+.mobile-header {
+  display: flex;
+  flex-direction: flex-start;
+  position: fixed;
+  width: 100%;
+  height: 35%;
+  background-color: #fff;
+}
+
+#hamburger {
+  padding: 3% 90% 3% 3%;
+  width: 5%;
+  height: 5%;
+}
+
+.mobile-main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.about-page {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20% 5% 10% 5%;
+  width: auto;
+  background-image: linear-gradient(rgba(201, 201, 201, 0.9), rgba(204, 204, 204, 0.7)),url('./sources/background2.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.intro-title1 {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  background-image: url('./sources/orange1.jpg');
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.intro-title2 {
+  font-size: 32px;
+  font-weight: 900;
+  background-image: url('./sources/orange1.jpg');
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.explanation-paragraph {
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  width: 90%;
+  padding: 5%;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 400px;
+  font-style: normal;
+  color: #292929;
+}
+
+.event-date {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: 500px;
+  font-style: normal;
+  color: #292929;
+}
+
+.copyright {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 300px;
+  font-style: normal;
+  color: #292929;
+}
+
+#languages-offered {
+  display:flex;
+  flex-direction: column;
+  gap: 5%;
+  width: 100%;
+  background-image: url('./sources/black\ grid.jpg');
+  background-size: 100% 100%;
+  background-size: 10px;
+  background-repeat: repeat;
+  background-color: var(--dark-grey);
+  padding: 5%;
+}
+
+.languages-title {
+  padding: 0 15%;
+  margin-bottom: 4%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.cards {
+  /* display: flex; */
+  gap: 5%;
+}
+
+
+
+
+
+
+
+
 
 .footer1, .footer2 {
 }
 @media screen and (min-width=768px){
-.hamburger {
-    display: none;
-}
-    .join-us {
-    display: none;
-}
+  .nav1 {
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: space-between;
+    background-color: #000;
+  }
+  
+  .nav2 {
+    background-color: #fff;
+  }
+  .hamburger {
+      display: none;
+  }
+
+  .
+      
+  .join-us {
+      display: none;
+  }
 }
