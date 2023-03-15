@@ -8,36 +8,44 @@
     <title>About Page Capstone Project</title>
 </head>
 <body>
-    <header id="header1">
-        <nav id="nav1"alt="first-navigation">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <ul>
-                <li>Swahili</li>
-                <li>My Page</li>
-                <li>Logout</li>
-            </ul>
-        </nav>
-    </header>
-    <header id="header2">  
-        <nav id="nav2" alt="second-navigation">
-            <a href="#about" class="main-logo"><img src="./sources/Logo.jpg" alt=""></a> 
-            <ul>
-                <li>About</li>
-                <li>Program</li>
-                <li>Join</li>
-                <li>Sponsor</li>
-                <li>News</li>
-                <li><a href="#about" class="second-logo">Teen Creators</a></li>
-            </ul> 
-        </nav>
-    </header>
+  <header id="header1">
+    <nav id="nav1" alt="first-navigation">
+      <ul>
+        <li><a id="fb" href="#" class="fa fa-facebook"></a></li>
+        <li><a id="twitter" href="#" class="fa fa-twitter"></a></li>
+        <li><a href="" class="nav1item">Swahili</a></li>
+        <li><a href="" class="nav1item">My Page</a></li>
+        <li><a href="" class="nav1item">Logout</a></li>
+      </ul>
+    </nav>
+</header>
+<!-- <header id="header2">  
+    <nav id="nav2" alt="second-navigation">
+        
+    </nav>
+</header> -->
 
-    <header id="mobile-header">
-      <nav>
-        <i id="hamburger" class="fa-sharp fa-solid fa-bars"></i>
-      </nav>
-    </header>
+<header id="mobile-header">
+  <nav class="nav2"> 
+    <a href="#about" class="main-logo"><img src="./sources/Logo.jpg" alt=""></a> 
+      <ul onclick="menuPopup()" id="navigationList" title="navigation-list">
+        <li><a class="navigationItem">About</a></li>
+        <li><a class="navigationItem">Program</a></li>
+        <li><a class="navigationItem">Join</a></li>
+        <li><a class="navigationItem">Sponsor</a></li>
+        <li><a class="navigationItem">News</a></li>
+        <li><a href="#about" class="navigationItem-main">Teen Creators</a></li>
+      </ul> 
+  </nav>   
+  <nav>
+    <div onclick="menuPopup()" id="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div> 
+    <div onclick="menuPopup()" id="closeButton"> &times; </div>
+  </nav>
+</header>
     
     <section class="mobilemain">
       <article class="about-page">
