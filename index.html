@@ -26,9 +26,9 @@
           <a class="nav2Item" href="./about.html">About</a>
           <a class="nav2Item" href="#packages">Our Packages</a>
           <a class="nav2Item" href="./about.html">Join</a>
-          <a class="nav2Item" href="sponsors">Sponsor</a>
+          <a class="nav2Item" href="#sponsors">Sponsor</a>
           <a class="nav2Item" href="./about.html">News</a>
-          <a class="mainItem" href="#about">Contributions</a> 
+          <a class="mainItem" href="./about.html">Contributions</a> 
         </nav>   
     </header>
 
@@ -38,9 +38,9 @@
             <li><a class="navItem" href="./about.html">About</a></li>
             <li><a class="navItem" href="#packages">Our Packages</a></li>
             <li><a class="navItem" href="./about.html">Join</a></li>
-            <li><a class="navItem" href="sponsors">Sponsor</a></li>
+            <li><a class="navItem" href="#sponsors">Sponsor</a></li>
             <li><a class="navItem" href="./about.html">News</a></li>
-            <li><a class="navItem navItem-main" href="#about">Contributions</a></li>
+            <li><a class="navItem navItem-main" href="./about.html">Contributions</a></li>
           </ul> 
       </nav>   
       <nav>
@@ -54,7 +54,7 @@
     </header>
 
     <section class="mobilemain">
-        <article class="home-page" id="home">
+        <article class="home-page" title="home-page">
           <h3 class="intro-title1">Hello Teen Creators!</h3>
           <h1 class="intro-title2">Teen Creators <br> Global Conference <br> 2024</h1>
             <p class="explanation-paragraph" alt="explanation-paragraph">
@@ -63,8 +63,8 @@
           <div class="copyright">&copy; Nakuru, Kenya </div>
         </article>
 
-        <article id="packages-offered" id="packages">
-            <h5 class="packages-title"> Packages Offered</h5>
+        <article id="packages-offered" title="packages-offered">
+            <h5 class="packages-title" id="packages"> Packages Offered</h5>
 
             <section class="card-stack">
               <div class="cards card1" alt="Card1">
@@ -100,12 +100,15 @@
           
         </section> -->
         
-        <section id="speakers">
-            <!-- To be rendered dynamically -->
+        <section id="speakers" title="speakers">
+            
           <h5 class="speakers-maintitle">Featured Speakers</h5>         
-            <div class="speaker-cards"> 
+          <section id="dynamic-speakers">
+            <!-- Renders all cards dynamically -->
+          </section>
+          <!-- <div class="speaker-cards"> 
               <div class="group1">
-                <div class="each-card speakerCard1">
+                <div class="each-card" id="speakerCard1">
                   <img class="speaker-images card1-img" src="./sources/speaker1.jpg" alt="Card1-image">
                   <img class="speaker-bgimages" src="./sources/grey checker.png" alt="Card1-bgimage">
                   <div class="card-body">
@@ -115,7 +118,7 @@
                   </div>
                 </div>
     
-                <div class="each-card speakerCard2">
+                <div class="each-card" id="speakerCard2">
                   <img class="speaker-images card2-img" src="./sources/speaker2.jpg" alt="Card2-image">
                   <img class="speaker-bgimages" src="./sources/grey checker.png" alt="Card1-bgimage">
                   <div class="card-body">
@@ -125,7 +128,7 @@
                   </div>
                 </div>
     
-                <div class="each-card speakerCard3">
+                <div class="each-card" id="speakerCard3">
                   <img class="speaker-images card3-img" src="./sources/speaker3.jpg" alt="Card3-image">
                   <img class="speaker-bgimages" src="./sources/grey checker.png" alt="Card1-bgimage">
                   <div class="card-body">
@@ -138,7 +141,7 @@
               </div>
   
               <div class="group2">
-                <div class="each-card speakerCard4">
+                <div class="each-card" id="speakerCard4">
                   <img class="speaker-images card4-img" src="./sources/speaker4.jpg" alt="Card4-image">
                   <img class="speaker-bgimages" src="./sources/grey checker.png" alt="Card1-bgimage">
                   <div class="card-body">
@@ -148,7 +151,7 @@
                   </div>
                 </div>
     
-                <div class="each-card speakerCard5">
+                <div class="each-card" id="speakerCard5">
                   <img class="speaker-images card5-img" src="./sources/speaker5.jpg" alt="Card5-image">
                   <img class="speaker-bgimages" src="./sources/grey checker.png" alt="Card1-bgimage">
                   <div class="card-body">
@@ -158,7 +161,7 @@
                   </div> 
                 </div>
     
-                <div class="each-card speaker-card6">
+                <div class="each-card" id="speaker-card6">
                   <img class="speaker-images card6-img" src="./sources/speaker6.jpg" alt="Card6-image">
                   <img class="speaker-bgimages" src="./sources/grey checker.png" alt="Card1-bgimage">
                   <div class="card-body">
@@ -168,8 +171,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-           <button class="view-more">View More</button>
+            </div>-->
+           <button class="view-more">View More</button> 
           </section>
               
       
@@ -184,14 +187,14 @@
           </div>
       </footer>
       
-      <footer id="footer2">
+      <footer id="footer2" title="copyright">
         <img class="footer2-logo" src="./sources/Logo.jpg" alt="footer2-logo">
         <p class="footer2-p">2015 Creative Commons Korea <br> Some Rights Reserved</p>
       </footer>
     </section>
 
     <script src="mobile_menu.js"></script>
+    <script src="speakers.js"></script>
     <script src="https://kit.fontawesome.com/b0cb732747.js" crossorigin="anonymous"></script>
-    <!-- <script src="dynamic_speakers.js"></script> -->
 </body>
 </html>

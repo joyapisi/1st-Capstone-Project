@@ -1,7 +1,7 @@
 const speakers = [{
     id: 1,
     image1: './sources/speaker1.jpg',
-    bgImg: './sources/grey checker.png';
+    bgImg: './sources/grey checker.png',
     speakerName: 'Archie',
     speakerTitle: 'Animator',
     speakerBio: 'This is a longer card with supporting text.',
@@ -9,7 +9,7 @@ const speakers = [{
   {
     id: 2,
     image1: './sources/speaker2.jpg',
-    bgImg: './sources/grey checker.png';
+    bgImg: './sources/grey checker.png',
     speakerName: 'Aurora',
     speakerTitle: '3D Illustrator',
     speakerBio: 'This is a longer card with supporting text.',
@@ -17,7 +17,7 @@ const speakers = [{
   {
     id: 3,
     image1: './sources/speaker3.jpg',
-    bgImg: './sources/grey checker.png';
+    bgImg: './sources/grey checker.png',
     speakerName: 'Blanca',
     speakerTitle: 'Graphics Designer',
     speakerBio: 'This is a longer card with supporting text.',
@@ -25,7 +25,7 @@ const speakers = [{
    {
     id: 4,
     image1: './sources/speaker4.jpg',
-    bgImg: './sources/grey checker.png';
+    bgImg: './sources/grey checker.png',
     speakerName: 'Gibron',
     speakerTitle: 'Voice Editor',
     speakerBio: 'This is a longer card with supporting text.',
@@ -33,7 +33,7 @@ const speakers = [{
    {
     id: 5,
     image1: './sources/speaker5.jpg',
-    bgImg: './sources/grey checker.png';
+    bgImg: './sources/grey checker.png',
     speakerName: 'Keller',
     speakerTitle: 'AfterEffects Artist',
     speakerBio: 'This is a longer card with supporting text.',
@@ -41,7 +41,7 @@ const speakers = [{
   {
     id: 6,
     image1: './sources/speaker6.jpg',
-    bgImg: './sources/grey checker.png';
+    bgImg: './sources/grey checker.png',
     speakerName: 'Joy',
     speakerTitle: 'Video Editor',
     speakerBio: 'This is a longer card with supporting text.',
@@ -56,19 +56,17 @@ const speakers = [{
     speakerBio,
   ) {
     return ` 
-    <section id="speakers">
-    <div class="speaker-cards"> 
-    <div class="each-card speakerCard-${id}">
-      <img class="speaker-images card2-img" src="${image1}" alt="Card2-image">
-      <img class="speaker-bgimages" src="${bgImg}" alt="Card1-bgimage">
-      <div class="card-body">
-        <h5 class="speaker-name">${speakerName}</h5>
-        <p class="speaker-title">${speakerTitle}</p>
-        <p class="speaker-bio" alt="speaker-bio">${speakerBio}</p>
+    <div class="speaker-cards" title="speakers">
+      <div class="each-card" id="speakerCard-${id}">
+        <img class="speaker-images card2-img" src="${image1}" alt="Card2-image">
+        <img class="speaker-bgimages" src="${bgImg}" alt="Card1-bgimage">
+        <div class="card-body">
+          <h5 class="speaker-name">${speakerName}</h5>
+          <p class="speaker-title">${speakerTitle}</p>
+          <p class="speaker-bio" alt="speaker-bio">${speakerBio}</p>
+        </div>
       </div>
     </div>
-    </div>
-    </section>
     `;
   }
   
@@ -87,4 +85,4 @@ const speakers = [{
   });
   
   // execute dynamic works section
-  document.getElementById('all-speakers').innerHTML = speakersCard;
+  document.getElementById('dynamic-speakers').innerHTML = speakersCard;

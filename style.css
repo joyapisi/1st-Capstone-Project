@@ -109,6 +109,11 @@ h1 {
   text-decoration: none;
 }
 
+.navItem:hover {
+  color: #ec5242;
+  text-decoration: none;
+}
+
 #hamburger {
   display: block;
   width: 18px;
@@ -361,7 +366,7 @@ h1 {
 
 .each-card {
   display: flex;
-  gap: 10%;
+  gap: 15%;
   padding: 0;
 }
 
@@ -378,8 +383,8 @@ h1 {
   height: 7%;
   z-index: 1;
   border-radius: 50%;
-  position: absolute;
-  margin-left: -1%;
+  /* position: absolute; */
+  margin-left: -35%;
   /* margin-bottom: -50%; */
 }
 
@@ -428,12 +433,21 @@ h1 {
   #dsktop-header {
     display: flex;
     flex-direction: column;
+    position: fixed;
     height: 15%;
     width: 100%;
     z-index:1;
   }
   
-  nav ul li a:hover {
+  nav ul li a:hover{
+    color: #ec5242;
+  }
+
+  .nav1Item:hover {
+    color: #ec5242;
+  }
+  
+  .nav2Item:hover {
     color: #ec5242;
   }
 
@@ -443,13 +457,14 @@ h1 {
     align-items: center;
     width: auto;
     height: 5%;
-    padding: 1% 10%;
+    padding: 1.5% 10%;
     background-color: #272a31;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-weight: 500;
     font-style: normal;
     color: #fff;
+    text-decoration: none;
   }
 
   #nav1 ul {
@@ -478,7 +493,7 @@ h1 {
     width: auto;
     height: 10%;
     gap: 4%;
-    padding: 1.5% 10%;
+    padding: 3% 10%;
     background-color: #fff;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
@@ -493,6 +508,7 @@ h1 {
 
   #nav2 .nav2Item {
     color: #272a31;
+    text-decoration: none;
   }
 
   #nav2 .mainItem {
@@ -500,6 +516,47 @@ h1 {
     padding: 1%;
     color: #ec5242;
     border: solid 3px #ec5242;
+  }
+
+  /* Mobile Nav */
+  #mobile-header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fff;
+    position: fixed;
+    height: 20%;
+  }
+
+  .nav2 {
+    padding: 2% 10%;
+  }
+
+  .nav2, .main-logo {
+    width: 2%;
+    height: 2%;
+  }
+
+  #navigationList {
+    display: flex;
+    list-style: none;
+    gap: 8%;
+    
+    /* margin-left: 60%; */
+  }
+
+  .navigationItem {
+    display: flex;
+    color: #272a31;
+  }
+
+  .navigationItem-main {
+    border: solid 3px #ec5242;
+    width: 5%;
+    height: 5%;
   }
 
   /* Mobile Nav */
@@ -515,7 +572,7 @@ h1 {
   
   .intro-title1 {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 24px;
     background-size: 20%;
   }
   
@@ -638,7 +695,7 @@ h1 {
 
   .each-card {
     display: flex;
-    gap: 8%;
+    gap: 15%;
     width: 100%;
     height: auto;
     padding: 0;
@@ -658,7 +715,7 @@ h1 {
     width: 8%;
     height: 10%;
     border-radius: 50%;
-    margin-left: -1%;
+    margin-left: -35%;
     /* margin-bottom: -15%; */
   }
 
