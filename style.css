@@ -5,6 +5,27 @@
     scroll-behavior: smooth;
 }
 
+p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h5 {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+}
+
 #dsktop-header {
   display: none;
 }
@@ -26,11 +47,16 @@
   display: none;
 }
 
+#navList li a:focus {
+  outline: none;
+  color: #fff;
+}
+
 #navList {
   display: none;
   flex-direction: column;
   position: absolute;
-  gap: 6%;
+  gap: 4%;
   transform: translateY(-100%);
   transition: transform 0.3s;
   top: 0;
@@ -49,14 +75,14 @@
   position: fixed;
   transform: translateY(0);
   background-size: cover;
-  background-color: #ec5242;
+  background-color: rgba(39, 42, 49);
   margin-top: 0;
   height: 150vh;
   width: 200vh;
 }
 
 .navItem {
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -67,8 +93,19 @@
   text-decoration: none;
 }
 
+.navItem-main {
+  text-decoration: none;
+  color: #ec5242;
+}
+
 .navItem:visited {
-  color: #6070ff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navItem:active,
+.navItem:focus {
+  color: #fff;
   text-decoration: none;
 }
 
@@ -152,8 +189,8 @@
 
 .intro-title2 {
   font-family: 'Lato', sans-serif;
-  font-size: 32px;
-  font-weight: 900;
+  font-size: 40px;
+  font-weight: 700;
   background-image: url('./sources/orange.jpg');
   background-size: 45%;
   color: transparent;
@@ -164,20 +201,21 @@
 
 .explanation-paragraph {
   border: 1px solid #fff;
+  background-color: #fff;
   border-radius: 1rem;
   width: 90%;
   padding: 5%;
   font-family: 'Lato', sans-serif;
-  font-size: 12px;
+  /* font-size: 16px;
   font-weight: 400px;
   font-style: normal;
-  color: #292929;
+  color: #292929; */
 }
 
 .event-date {
   font-family: 'Lato', sans-serif;
   font-size: 24px;
-  font-weight: 500px;
+  font-weight: 700;
   font-style: normal;
   color: #292929;
 }
@@ -276,13 +314,14 @@
 }
 
 #speakers {
-  font-size: 18px;
+  /* font-size: 18px;
   font-weight: 400;
   font-family: 'Lato', sans-serif;
   color: #272a31;
   text-align: center;
+  height: auto;
   gap: 8%;
-  padding: 5%;
+  padding: 5%; */
 }
 
 .speakers-maintitle {
@@ -301,61 +340,65 @@
 .speaker-cards {
   display: flex;
   flex-direction: column;
-  gap: 5%;
-  height: 700px;
-  padding: 5%;
+  gap: 15%;
+  height: auto;
+  padding: 8%;
 }
 
 .group1 {
   display: flex;
   flex-direction: column;
   height: auto;
-  gap: 5%;
+  gap: 15%;
 }
 
 .group2 {
   display: flex;
   flex-direction: column;
   height: auto;
-  gap: 5%;
+  gap: 15%;
 }
 
 .each-card {
   display: flex;
-  gap: 15%;
+  gap: 10%;
   padding: 0;
 }
 
 .speaker-images {
-  width: 35%;
-  height:  90%;
+  width: 20%;
+  height:  20%;
   z-index: 2;
   border-radius: 50%;
   /* padding: 5%; */
 }
 
 .speaker-bgimages {
-  width: 35%;
-  height: 90%;
+  width: 10%;
+  height: 7%;
   z-index: 1;
   border-radius: 50%;
-  margin-left: -55%;
+  position: absolute;
+  margin-left: -1%;
   /* margin-bottom: -50%; */
 }
 
 .card-body {
   text-align: left;
-  width: 50%;
+  width: 100%;
   /* height: 45%; */
 }
 
 .speaker-name {
   text-align: left;
+  font-weight: 600;
 }
 
 .speaker-title {
   color: #ec5242;
   text-align: left;
+  font-style: italic;
+  font-weight: 600;
 }
 
 .speaker-bio {
@@ -365,7 +408,8 @@
 
 .view-more {
   width: 90%;
-  padding: 3% 10%;
+  margin-left: 5%;
+  padding: 3% 10%; 
   color: #5a5a5a;
   background-color: transparent;
   border: 1px solid #bebebe;
@@ -389,18 +433,23 @@
     z-index:1;
   }
   
+  nav ul li a:hover {
+    color: #ec5242;
+  }
+
   #nav1 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     width: auto;
     height: 5%;
-    padding: 2% 10%;
+    padding: 1% 10%;
     background-color: #272a31;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-weight: 500;
     font-style: normal;
+    color: #fff;
   }
 
   #nav1 ul {
@@ -416,77 +465,63 @@
 
   #nav1 .nav1item {
     color: #fff;
+    text-decoration: none;
+    list-style: none;
   }
 
-  nav ul li:hover {
-    color: #ec5242;
-  }
-
-  .mobile-header {
-    display: flex;
-    background-color: #fff;
-    position: fixed;
-    height: 20%;
-  }
-
-  .mobile-nav {
+  #nav2 {
     display: flex;
     justify-content: flex-end;
-    padding: 2% 10%;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    height: 10%;
+    gap: 4%;
+    padding: 1.5% 10%;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
   }
 
   .main-logo {
-    width: 10%;
-    height: 10%;
+    /* width: 1%;
+    height: 1%; */
   }
 
-  #navList {
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-    display: flex;
-    list-style: none;
-    gap: 8%;
-    
-    /* margin-left: 60%; */
-  }
-
-  .navItem {
-    display: flex;
+  #nav2 .nav2Item {
     color: #272a31;
   }
 
-  .navItem-main {
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-    list-style: none;
-    color: #272a31;
+  #nav2 .mainItem {
+    text-decoration: none;
+    padding: 1%;
+    color: #ec5242;
     border: solid 3px #ec5242;
-    /* padding: 2%; */
   }
 
-  #hamburger {
-      display: none;
+  /* Mobile Nav */
+  #mobile-header {
+    display: none;
   }
 
   /* Home Page */
   .home-page {
-    padding: 20% 30% 10% 10%;
+    padding: 15% 30% 10% 10%;
     background-size: cover;
   }
   
   .intro-title1 {
-    font-weight: 400;
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 32px;
     background-size: 20%;
   }
   
   .intro-title2 {
-    font-weight: 900;
-    font-size: 50px;
+    font-weight: 700;
+    font-size: 40px;
   }
   
   .explanation-paragraph {
@@ -565,14 +600,14 @@
     display: none;
   }
   
-  #speakers {
+  /* #speakers {
     font-size: 18px;
     font-weight: 400;
     font-family: 'Lato', sans-serif;
     color: #000;
     text-align: center;
     gap: 8%;
-  }
+  } */
   
   .speaker-cards {
     display: flex;
@@ -580,7 +615,7 @@
     justify-content: center;
     align-items: center;
     gap: 5%;
-    width: 100%;
+    width: auto;
     height: auto;
     padding: 5% 5%;
   }
@@ -588,17 +623,17 @@
   .group1 {
     display: flex;
     flex-direction: column;
-    gap: 5%;
-    width: 50%;
-    height: 400px;
+    gap: 8%;
+    width: 100%;
+    height: auto;
   }
 
   .group2 {
     display: flex;
     flex-direction: column;
-    gap: 5%;
-    width: 50%;
-    height: 400px;
+    gap: 8%;
+    width: 100%;
+    height: auto;
   }
 
   .each-card {
@@ -610,30 +645,26 @@
   }
   
   .speaker-images {
-    width: 35%;
-    height: 100%;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
-    object-fit: cover;
+    /* object-fit: cover; */
     /* object-position: 100% 0; */
     /* background-image: url('./sources/grey\ checker.png'); */
     /* background-position: 70% -20%; */
   }
   
   .speaker-bgimages {
-    width: 35%;
-    height: 100%;
+    width: 8%;
+    height: 10%;
     border-radius: 50%;
-    margin-left: -45%;
+    margin-left: -1%;
     /* margin-bottom: -15%; */
   }
 
   .card-body {
     text-align: left;
-    width: 50%;
-  }
-  
-  .speaker-name {
-  
+    width: 100%;
   }
   
   .speaker-title {
@@ -657,7 +688,7 @@
     display: flex;
     flex-direction: column;
     background-color: #292929;
-    height: 10%;
+    height: auto;
     padding: 0;
   }
   
@@ -666,8 +697,7 @@
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    padding: 5%;
-    height: 5%;
+    padding: 3%;
     color: #fff;
     text-decoration-line: underline;
     text-decoration-color: #ec5242;
@@ -676,13 +706,15 @@
   
   .sponsorship {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10% 5% 10%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #6b6b6b;
   }
 
-  .sponsors-list {
-    display: flex;
-    justify-content: center;
-  }
   .sponsors-companies {
     font-weight: 400;
     font-size: 8px;

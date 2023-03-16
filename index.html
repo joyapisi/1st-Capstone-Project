@@ -13,37 +13,34 @@
     <header id="dsktop-header">
         <nav id="nav1" title="first-navigation">
           <ul>
-            <li><i class="fa-brands fa-facebook-f"></i></li>
-            <li><a id="twitter" href="#" class="fa fa-twitter"></a></li>
+            <li><a class="fa-brands fa-facebook-f"></a></li>
+            <li><a class="fa-brands fa-twitter"></a></li>
             <li><a href="#" class="nav1item">Swahili</a></li>
             <li><a href="#" class="nav1item">My Page</a></li>
             <li><a href="#" class="nav1item">Logout</a></li>
           </ul>
         </nav>
         
-        <nav id="nav2" title="second navigation"> 
-            <ul>
-              <li><a class="main-logo" href="#about"><img src="./sources/Logo.jpg" alt=""></a></li>
-              <li><a class="navItem">About</a></li>
-              <li><a class="navItem">Program</a></li>
-              <li><a class="navItem">Join</a></li>
-              <li><a class="navItem">Sponsor</a></li>
-              <li><a class="navItem">News</a></li>
-              <li><a class="navItem-main" href="#about">Teen Creators</a></li>
-            </ul> 
+        <nav id="nav2" title="second-navigation"> 
+          <a href="#home"><img class="main-logo" src="./sources/logo.jpg" alt="logo"></a> 
+          <a class="nav2Item" href="./about.html">About</a>
+          <a class="nav2Item" href="#packages">Our Packages</a>
+          <a class="nav2Item" href="./about.html">Join</a>
+          <a class="nav2Item" href="sponsors">Sponsor</a>
+          <a class="nav2Item" href="./about.html">News</a>
+          <a class="mainItem" href="#about">Contributions</a> 
         </nav>   
     </header>
 
     <header id="mobile-header">
       <nav class="mobile-nav"> 
-        <a href="#about" class="main-logo"><img src="./sources/Logo.jpg" alt=""></a> 
           <ul onclick="menuPopup()" id="navList" title="navigation-list">
-            <li><a class="navItem">About</a></li>
-            <li><a class="navItem">Program</a></li>
-            <li><a class="navItem">Join</a></li>
-            <li><a class="navItem">Sponsor</a></li>
-            <li><a class="navItem">News</a></li>
-            <li><a class="navItem-main" href="#about">Teen Creators</a></li>
+            <li><a class="navItem" href="./about.html">About</a></li>
+            <li><a class="navItem" href="#packages">Our Packages</a></li>
+            <li><a class="navItem" href="./about.html">Join</a></li>
+            <li><a class="navItem" href="sponsors">Sponsor</a></li>
+            <li><a class="navItem" href="./about.html">News</a></li>
+            <li><a class="navItem navItem-main" href="#about">Contributions</a></li>
           </ul> 
       </nav>   
       <nav>
@@ -57,7 +54,7 @@
     </header>
 
     <section class="mobilemain">
-        <article class="home-page">
+        <article class="home-page" id="home">
           <h3 class="intro-title1">Hello Teen Creators!</h3>
           <h1 class="intro-title2">Teen Creators <br> Global Conference <br> 2024</h1>
             <p class="explanation-paragraph" alt="explanation-paragraph">
@@ -66,7 +63,7 @@
           <div class="copyright">&copy; Nakuru, Kenya </div>
         </article>
 
-        <article id="packages-offered">
+        <article id="packages-offered" id="packages">
             <h5 class="packages-title"> Packages Offered</h5>
 
             <section class="card-stack">
@@ -99,12 +96,13 @@
             <button class="join-us">Join Us Today!</button>
         </article>
 
-        <section id="all-speakers">
-          <h5 class="speakers-maintitle">Featured Speakers</h5>
-        </section>
+        <!-- <section id="all-speakers">
+          
+        </section> -->
         
         <section id="speakers">
             <!-- To be rendered dynamically -->
+          <h5 class="speakers-maintitle">Featured Speakers</h5>         
             <div class="speaker-cards"> 
               <div class="group1">
                 <div class="each-card speakerCard1">
@@ -171,29 +169,29 @@
                 </div>
               </div>
             </div>
-            <button class="view-more">View More</button>
+           <button class="view-more">View More</button>
+          </section>
+              
       
 
-        <footer id="footer1">
+        <footer id="footer1" id="sponsors" title="sponsors">
           <h5 class="sponsors-title">Sponsors</h5>
           <div class="sponsorship">
-            <ul class="sponsors-list">
-                <li class="sponsor-companies">Adobe Ent</li>
-                <li class="sponsor-companies">Motion</li>
-            </ul>
-            <ul class="sponsors-list">
-              <li class="sponsor-companies">Netflix</li>
-              <li class="sponsor-companies">YouTube</li>
-            </ul>
+            <a class="sponsor-companies">Adobe Ent</a>
+            <a class="sponsor-companies">Motion</a>
+            <a class="sponsor-companies">Netflix</a>
+            <a class="sponsor-companies">YouTube</a>
           </div>
       </footer>
+      
       <footer id="footer2">
         <img class="footer2-logo" src="./sources/Logo.jpg" alt="footer2-logo">
         <p class="footer2-p">2015 Creative Commons Korea <br> Some Rights Reserved</p>
       </footer>
     </section>
-    <script src="https://kit.fontawesome.com/b0cb732747.js" crossorigin="anonymous"></script>
+
     <script src="mobile_menu.js"></script>
-    <script src="dynamic_speakers.js"></script>
+    <script src="https://kit.fontawesome.com/b0cb732747.js" crossorigin="anonymous"></script>
+    <!-- <script src="dynamic_speakers.js"></script> -->
 </body>
 </html>
