@@ -84,5 +84,5 @@ const speakers = [{
     speakersCard += speakersCardDetails;
   });
   
-  // execute dynamic works section
+  // append dynamically created speakers section (speakersCard) to the id #dynamic-speakers in HTML 
   document.getElementById('dynamic-speakers').innerHTML = speakersCard;
