@@ -19,6 +19,7 @@ HTML, CSS and JavaScript Project
 -- [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ](#faq)
 - [📝 License](#license)
+- [© Attribution](#attribution)
 
 # 📖 [Capstone_Project] <a name="Capstone Project"></a>
 
@@ -189,9 +190,9 @@ If you think that change is necessary - open a Pull Request in this repository a
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Add popup button] **[Feature_1]**
+# [Add popup button] **[Feature_1]**
 In my speakers section, I would like to make the view more button reveal more speeakers using DOM manipulation
-- [Create other pages] **[Feature_2]**
+# [Create other pages] **[Feature_2]**
 This website only has the home page and about page. In the future, I would like to add other pages to it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -221,7 +222,7 @@ I'm thankful to Microverse for providing a study platform which guided me throug
 - **[Question_1]**
 How can I download figma images?
 
-  - [Answer_1]
+  - 
 You can watch this video to understand hpw you can download figma images and use CSS provided in figma:
 <ul>
   <li><a href="https://www.loom.com/embed/167236d17f104fc18298c5c9888354c9">Git Hub</a></li>
@@ -230,14 +231,14 @@ You can watch this video to understand hpw you can download figma images and use
 - **[Question_2]**
 Where can I download node JS for installation?
 
-  - [Answer_2]
+  - 
 Node Js can be downloaded here- <ul>
     <li><a href="https://nodejs.org/en/download/"> Node JS </a></li>
   </ul>
 
 - **[Question_3]**
 How can I style with flexbox?
-  - [Answer_3]
+  - 
   Learn everything you need to know about flex boxes here:
 <ul>
     <li><a href="https://www.youtube.com/watch?v=Vj7NZ6FiQvo&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid">Flex Boxes</a></li>
@@ -249,7 +250,7 @@ How can I style with flexbox?
 
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
-# Attribution
+## © Attribution <a name="attribution"></a>
 Original design idea by [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
