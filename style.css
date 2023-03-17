@@ -184,7 +184,7 @@ h1 {
   font-weight: 400;
   font-size: 20px;
   background-image: url('./sources/orange.jpg');
-  background-size: 15%;
+  background-size: 50px;
   color: transparent;
   -webkit-background-clip: text;
 }
@@ -194,7 +194,7 @@ h1 {
   font-size: 32px;
   font-weight: 700;
   background-image: url('./sources/orange.jpg');
-  background-size: 45%;
+  background-size: 60px;
   color: transparent;
   -webkit-background-clip: text;
 }
@@ -402,6 +402,11 @@ h1 {
   font-weight: 500;
 }
 
+#chevron {
+  color: #ec5242;
+  padding: 6px 5px 5px 5px;
+}
+
 #footer1,
 #footer2 {
   display: none;
@@ -510,7 +515,8 @@ h1 {
 
   .main-logo {
     display: block;
-    padding: 0;
+
+    padding-right: 15%;
     width: 50px;
     height: 50px;
   }

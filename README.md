@@ -21,10 +21,10 @@ HTML, CSS and JavaScript Project
 - [📝 License](#license)
 - [© Attribution](#attribution)
 
-# 📖 [Capstone_Project] <a name="Capstone Project"></a>
+# 📖 [Teen_Creators_Conference] <a name="Teen Conference"></a>
 
 
-**[Capstone_Project]** is a simple HTML, CSS and JavaScript project that uses a simple web design to create a UI in both mobile and desktop version, use JavaScript events and DOM elements to create pages dynamically. 
+**[Capstone_Project]** is a simple HTML, CSS and JavaScript project that uses a simple web design to create a UI in both mobile and desktop version, use JavaScript events and DOM elements to create pages dynamically. This project's content is personalized to a Teen Creators Conference that helps teenagers learn production using Adobe products.
 
 ## 🛠 Built With  <a name="built-with"></a>
 
@@ -44,12 +44,12 @@ HTML, CSS and JavaScript Project
 <!-- VIdeo Explanation -->
 ## 🎥 Video Explanation <a name="video-explanation"></a>
 
-Click <li><a href="https://www.loom.com/share/3bd26067ac5a41078c91aacb17049eff">here</a></li> to see a live demo of this project online: 
+Click <a href="https://www.loom.com/share/85f87f3aae2a470b953ee5ea325478a5">here</a> to see a live demo of this project online: 
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-Click <li><a href="https://joyapisi.github.io/1st-Capstone-Project/">here</a></li> to see a live demo of this project online: 
+Click <a href="https://joyapisi.github.io/1st-Capstone-Project/">here</a> to see a live demo of this project online: 
 
 
 <!-- GETTING STARTED -->
@@ -213,6 +213,7 @@ If you like this project, kindly leave a comment below and share it with someone
 ## 🙏 Acknowledgments <a name="Microverse Inc."></a>
 
 I'm thankful to Microverse for providing a study platform which guided me through this project and to my coding partners at Microverse for the collaborative effort. 
+I'm also thankful to have used the original design idea by [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 
 <!-- FAQ (optional) -->
