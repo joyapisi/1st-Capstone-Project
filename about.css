@@ -131,10 +131,6 @@ h1 {
   margin: 3px 0;
 }
 
-#hamburger.active {
-  display: none;
-}
-
 #closeButton {
   transform: translateY(-100%);
   position: absolute;
