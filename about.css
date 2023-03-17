@@ -440,7 +440,6 @@ h1 {
 
   .main-logo {
     display: flex;
-    align-items: left;
     margin-right: 15%;
     width: 50px;
     height: 50px;
