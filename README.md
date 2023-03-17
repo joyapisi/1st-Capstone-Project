@@ -76,7 +76,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone[ (https://github.com/joyapisi/ThePortfolio.git)]
+  git clone[(https://github.com/joyapisi/1st-Capstone-Project.git)]
 ```
 ### Set Up Linters
 ## Define Linters
@@ -190,9 +190,9 @@ If you think that change is necessary - open a Pull Request in this repository a
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-# [Add popup button] **[Feature_1]**
+# **[Add_popup_button]**
 In my speakers section, I would like to make the view more button reveal more speeakers using DOM manipulation
-# [Create other pages] **[Feature_2]**
+# **[Create_other_pages]**
 This website only has the home page and about page. In the future, I would like to add other pages to it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
