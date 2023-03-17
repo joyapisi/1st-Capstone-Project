@@ -7,6 +7,7 @@ HTML, CSS and JavaScript Project
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+- [ Video Explanation](#video-explanation)   
 - [🚀 Live Demo](#live-demo)    
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -39,10 +40,15 @@ HTML, CSS and JavaScript Project
   </ul>
 </details>
 
+<!-- VIdeo Explanation -->
+## Video Explanation <a name="video-explanation"></a>
+
+Click <li><a href="https://www.loom.com/share/854c5d30167b4fff93df665f69c5f912">here</a></li> to see a live demo of this project online: 
+
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-Click here to see a live demo of this project online: <li><a href="#">Live Demo Coming Soon</a></li>
+Click <li><a href="https://joyapisi.github.io/1st-Capstone-Project/">here</a></li> to see a live demo of this project online: 
 
 
 <!-- GETTING STARTED -->
