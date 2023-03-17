@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 * {
-    max-height: 1000000px;
-    margin: 0;
-    scroll-behavior: smooth;
+  max-height: 1000000px;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
 p {
@@ -30,13 +31,14 @@ h1 {
   display: none;
 }
 
-#nav1, #nav2 {
+#nav1,
+#nav2 {
   display: none;
 }
 
 #mobile-header {
   display: flex;
-  flex-direction: flex-start;
+  align-items: flex-start;
   position: fixed;
   width: 100%;
   height: 8%;
@@ -175,7 +177,7 @@ h1 {
   padding: 20% 10% 10% 10%;
   width: auto;
   font-family: 'Lato', sans-serif;
-  background-image: linear-gradient(rgba(163, 163, 163, 0.9), rgba(163, 163, 163, 0.7)),url('./sources/home-bg.jpg');
+  background-image: linear-gradient(rgba(163, 163, 163, 0.9), rgba(163, 163, 163, 0.7)), url('./sources/home-bg.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -221,13 +223,13 @@ h1 {
 .copyright {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  font-weight: 300px;
+  font-weight: 300;
   font-style: normal;
   color: #292929;
 }
 
 #packages-offered {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -268,28 +270,32 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+
   /* width: 100%; */
   gap: 12px;
   padding: 5px 10px;
   background-image: linear-gradient(rgba(201, 201, 201, 0.4), rgba(204, 204, 204, 0.4));
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  font-weight: 300px;
+  font-weight: 300;
   font-style: normal;
 }
 
 .cards-img {
   box-sizing: border-box;
   display: flex;
+
   /* justify-content: center;
   align-items: center; */
   width: 44px;
   height: 44px;
+
   /* margin-top: 15px; */
 }
 
 .card-title {
   display: flex;
+
   /* justify-content: center;
   align-items: center; */
   font-family: 'Lato', sans-serif;
@@ -298,7 +304,9 @@ h1 {
   text-align: left;
   color: #ec5242;
   width: 50px;
+
   /* padding-right: 10px; */
+
   /* margin-top: 5px; */
 }
 
@@ -356,7 +364,7 @@ h1 {
 
 .speaker-images {
   width: 25%;
-  height:  25%;
+  height: 25%;
   z-index: 2;
   border-radius: 50%;
 }
@@ -401,7 +409,7 @@ h1 {
   align-items: center;
   width: 90%;
   margin: 0 10px 30px 20px;
-  padding: 10px 15px; 
+  padding: 10px 15px;
   color: #5a5a5a;
   background-color: transparent;
   border: 1px solid #d3d3d3;
@@ -412,7 +420,8 @@ h1 {
   font-weight: 500;
 }
 
-#footer1, #footer2 {
+#footer1,
+#footer2 {
   display: none;
 }
 
@@ -425,15 +434,15 @@ h1 {
     width: 100%;
     z-index: 4;
   }
-  
-  nav ul li a:hover{
+
+  nav ul li a:hover {
     color: #ec5242;
   }
 
   .nav1Item:hover {
     color: #ec5242;
   }
-  
+
   .nav2Item:hover {
     color: #ec5242;
   }
@@ -521,7 +530,7 @@ h1 {
     display: block;
     padding: 0;
     width: 50px;
-    height: 50px; 
+    height: 50px;
   }
 
   .main-logo img {
@@ -551,33 +560,33 @@ h1 {
     padding: 15% 30% 10% 10%;
     background-size: cover;
   }
-  
+
   .intro-title1 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 24px;
     background-size: 20%;
   }
-  
+
   .intro-title2 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 40px;
   }
-  
+
   .explanation-paragraph {
     width: 75%;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
-    font-weight: 600px;
+    font-weight: 600;
     text-align: left;
     border-radius: 0;
     padding: 8% 5%;
   }
-  
+
   .event-date {
     font-size: 30px;
-    font-weight: 700px;;
+    font-weight: 700;
   }
-  
+
   #packages-offered {
     padding: 50px 100px;
     background-size: cover;
@@ -585,25 +594,25 @@ h1 {
     width: auto;
     gap: 10px;
   }
-  
+
   .packages-title {
     font-size: 18px;
     font-weight: 900;
     margin: 0;
     padding: 0 0 25px 0;
   }
-  
+
   .card-stack {
     flex-direction: row;
     gap: 7px;
     height: auto;
     width: 100%;
   }
-  
+
   .card-stack .cards {
     display: flex;
     flex-direction: column;
-    align-items: center ;
+    align-items: center;
     justify-content: center;
     width: auto;
     height: auto;
@@ -611,22 +620,17 @@ h1 {
     padding: 10px 10px;
     border-radius: 0.5rem;
   }
-  
+
   .cards-img {
-    /* align-items: center; */
-    /* height: 44px; */
     padding: 0;
   }
-  
+
   .card-title {
-     text-align: center;
-     /* height: auto; */
-     /* padding-right: 0; */
-     width: auto;
-     padding: 0;
-     /* padding-bottom: 5px; */
+    text-align: center;
+    width: auto;
+    padding: 0;
   }
-  
+
   .card-text {
     width: auto;
     text-align: center;
@@ -634,7 +638,7 @@ h1 {
     line-height: 22px;
     padding: 0;
   }
-  
+
   .view-all {
     display: flex;
     width: auto;
@@ -643,40 +647,16 @@ h1 {
     font-weight: 400;
     color: #fff;
     padding-top: 25px;
-    /*border-radius: 0.5rem; */
-    /* margin-top: -50%; */
   }
 
-  .join-us {
-   display: none;
-  }
-  
   #speaker-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* justify-content: center;
-    /* align-items: center; */ */
     gap: 5%;
     width: auto;
     height: auto;
     margin: 50px;
   }
-
-  /* .group1 {
-    display: flex;
-    flex-direction: column;
-    gap: 8%;
-    width: 100%;
-    height: auto;
-  }
-
-  .group2 {
-    display: flex;
-    flex-direction: column;
-    gap: 8%;
-    width: 100%;
-    height: auto;
-  } */
 
   .each-card {
     display: flex;
@@ -685,13 +665,13 @@ h1 {
     height: auto;
     padding: 0;
   }
-  
+
   .speaker-images {
     width: 120px;
     height: 120px;
     border-radius: 50%;
   }
-  
+
   .speaker-bgimages {
     width: 60px;
     height: 60px;
@@ -703,22 +683,22 @@ h1 {
     text-align: left;
     width: 100%;
   }
-  
+
   .speaker-title {
     color: #ec5242;
     width: 100%;
   }
-  
+
   .speaker-bio {
     width: 100%;
   }
-  
+
   .view-more {
     display: none;
   }
-      
+
   .join-us {
-      display: none;
+    display: none;
   }
 
   #footer1 {
@@ -728,7 +708,7 @@ h1 {
     height: auto;
     padding: 0;
   }
-  
+
   .sponsors-title {
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -740,7 +720,7 @@ h1 {
     text-decoration-color: #ec5242;
     text-underline-offset: 10px;
   }
-  
+
   .sponsorship {
     display: flex;
     justify-content: space-between;
@@ -758,7 +738,7 @@ h1 {
     color: #d3d3d3;
     list-style: none;
   }
-  
+
   #footer2 {
     display: flex;
     justify-content: center;
@@ -766,13 +746,13 @@ h1 {
     gap: 10%;
     padding: 5% 30%;
   }
-  
+
   .footer2-logo {
     width: 64px;
     height: 64px;
     padding-left: 0;
   }
-  
+
   .footer2-p {
     font-family: 'Lato', sans-serif;
     font-size: 14px;
@@ -783,4 +763,3 @@ h1 {
     width: 80%;
   }
 }
-
