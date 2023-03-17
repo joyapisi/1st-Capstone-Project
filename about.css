@@ -41,6 +41,7 @@ h1 {
   width: 100%;
   height: 8%;
   background-color: #fff;
+  z-index:5;
 }
 
 .main-logo {
@@ -182,27 +183,22 @@ h1 {
   .intro-title1 {
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 20px;
     background-image: url('./sources/orange.jpg');
     background-size: 15%;
     color: transparent;
     -webkit-background-clip: text;
-  
-    /* -webkit-text-stroke-width: 4px;
-    -webkit-text-stroke-color: black; */
   }
   
   .intro-title2 {
     font-family: 'Lato', sans-serif;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
     background-image: url('./sources/orange.jpg');
     background-size: 45%;
     color: transparent;
     -webkit-background-clip: text;
-  
-    /* -webkit-text-stroke-width: 12px #000; */
   } 
 
   .aboutintro1, .aboutintro2 {
@@ -268,11 +264,11 @@ h1 {
   }
   
   .past-conf {
-    display: flex;
-    flex-direction: column;
-    gap: 8%;
-    /* height: auto;
-    width: auto; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5%;
+    height: 500px;
+    width: auto;
   }
   
   .first-conf {
@@ -292,21 +288,11 @@ h1 {
   .first-conf-img {
     width: 100%;
     height: 100%; 
-    z-index: 1;
   }
 
   .second-conf-img {
     width: 100%;
     height: 100%;
-    z-index: 1;
-  }
-  
-  .inner-content {
-    position: absolute;
-    bottom: 30%;
-    right: 20%;
-    color: white;
-    padding: 5%;
   }
   
   .pastconf1-title, .pastconf2-title {
@@ -315,6 +301,10 @@ h1 {
     font-size: 20px;
     font-weight: 600;
     font-style: normal;
+    position: absolute;
+    bottom: 50%;
+    right: 45%;
+    color: white;
   }
   
   .pastconf-paragraph1, .pastconf-paragraph2 {
@@ -322,6 +312,9 @@ h1 {
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
+    position: absolute;
+    bottom: 45%;
+    right: 35%;
     color: #fff ;
   }
   
@@ -486,17 +479,10 @@ h1 {
       padding: 2% 10%;
     }
   
-    .nav2, .main-logo {
-      width: 2%;
-      height: 2%;
-    }
-  
     #navigationList {
       display: flex;
       list-style: none;
       gap: 8%;
-      
-      /* margin-left: 60%; */
     }
   
     .navigationItem {
@@ -519,8 +505,10 @@ h1 {
     }
 
     .past-conf {
-      display: flex;
-      flex-direction: row;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 450px;
+      padding-bottom: 0;
     }
 
     #footer1 {
@@ -534,6 +522,7 @@ h1 {
       align-items: center;
       color: #fff;
       padding: 8% 20%;
+      margin-top: -25%;
     }
 
     .footer2-logo, .footer2-p {

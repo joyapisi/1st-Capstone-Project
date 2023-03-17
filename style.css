@@ -41,6 +41,7 @@ h1 {
   width: 100%;
   height: 8%;
   background-color: #fff;
+  z-index: 3;
 }
 
 .main-logo {
@@ -63,7 +64,7 @@ h1 {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 4;
+  z-index: 6;
   list-style: none;
   padding-top: 4rem;
   mix-blend-mode: multiply;
@@ -120,7 +121,7 @@ h1 {
   height: 18px;
   padding-top: 3%;
   padding-left: 10%;
-  z-index: 3;
+  z-index: 5;
   position: absolute;
   cursor: pointer;
 }
@@ -191,7 +192,7 @@ h1 {
 
 .intro-title2 {
   font-family: 'Lato', sans-serif;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
   background-image: url('./sources/orange.jpg');
   background-size: 45%;
@@ -367,6 +368,10 @@ h1 {
   text-align: left;
   font-style: italic;
   font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: #d3d3d3;
+  text-underline-offset: 8px;
+  padding-bottom: 4%;
 }
 
 .speaker-bio {
@@ -380,7 +385,7 @@ h1 {
   padding: 3% 10%; 
   color: #5a5a5a;
   background-color: transparent;
-  border: 1px solid #bebebe;
+  border: 1px solid #d3d3d3;
   border-radius: 0.3rem;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
@@ -399,7 +404,7 @@ h1 {
     position: fixed;
     height: 15%;
     width: 100%;
-    z-index:1;
+    z-index: 4;
   }
   
   nav ul li a:hover{
@@ -464,11 +469,6 @@ h1 {
     font-style: normal;
   }
 
-  .main-logo {
-    /* width: 1%;
-    height: 1%; */
-  }
-
   #nav2 .nav2Item {
     color: #272a31;
     text-decoration: none;
@@ -498,9 +498,10 @@ h1 {
     padding: 2% 10%;
   }
 
-  .nav2, .main-logo {
-    width: 2%;
-    height: 2%;
+  .main-logo {
+    padding: 0;
+    width: 100%;
+    height: 100%;
   }
 
   #navigationList {
@@ -619,7 +620,7 @@ h1 {
    display: none;
   }
   
-  .speaker-cards {
+  .dynamic-speakers, .speaker-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* justify-content: center;
