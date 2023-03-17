@@ -135,7 +135,7 @@ h1 {
 }
 
 #hamburger.active {
-  display: none;
+  /* display: none; */
 }
 
 #closeButton {
@@ -230,10 +230,10 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5%;
+  padding: 20px 10px;
   width: auto;
-  height: 700px;
-  gap: 5%;
+  height: auto;
+  gap: 15px;
   background-image: url('./sources/black-wall.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -255,17 +255,21 @@ h1 {
 .card-stack {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  height: 600px;
-  gap: 3%;
+  width: auto;
+  height: auto;
+  gap: 5px;
+  padding: 0;
 }
 
 .card-stack .cards {
   display: flex;
-  width: 85%;
-  gap: 5%;
-  padding: 2% 4%;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+  gap: 12px;
+  padding: 5px 10px;
   background-image: linear-gradient(rgba(201, 201, 201, 0.4), rgba(204, 204, 204, 0.4));
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -275,22 +279,34 @@ h1 {
 
 .cards-img {
   box-sizing: border-box;
-  width: 64px;
-  height: 64px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  width: 44px;
+  height: 44px;
+  /* margin-top: 15px; */
 }
 
 .card-title {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
   font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
   text-align: left;
-  width: 25%;
   color: #ec5242;
+  width: 50px;
+  /* padding-right: 10px; */
+  /* margin-top: 5px; */
 }
 
 .card-text {
   font-family: 'Lato', sans-serif;
   text-align: left;
-  width: 65%;
+  width: 150px;
   color: #fff;
+  padding-left: 40px;
 }
 
 .view-all {
@@ -323,13 +339,13 @@ h1 {
   text-underline-offset: 10px;
 }
 
-.speaker-cards {
+#speaker-cards {
   display: flex;
   flex-direction: column;
-  gap: 15%;
-  height: 100%;
+  gap: 20px;
+  height: auto;
   width: auto;
-  padding: 8%;
+  margin: 50px;
 }
 
 .each-card {
@@ -499,7 +515,13 @@ h1 {
   }
 
   .main-logo {
+    display: block;
     padding: 0;
+    width: 50px;
+    height: 50px; 
+  }
+
+  .main-logo img {
     width: 100%;
     height: 100%;
   }
@@ -519,11 +541,6 @@ h1 {
     border: solid 3px #ec5242;
     width: 5%;
     height: 5%;
-  }
-
-  /* Mobile Nav */
-  #mobile-header {
-    display: none;
   }
 
   /* Home Page */
@@ -559,60 +576,71 @@ h1 {
   }
   
   #packages-offered {
-    padding: 8% 10%;
+    padding: 50px 100px;
     background-size: cover;
-    height: 340px;
-    gap: 3%;
+    height: auto;
+    width: auto;
+    gap: 10px;
   }
   
   .packages-title {
     font-size: 18px;
     font-weight: 900;
     margin: 0;
-    padding: 2% 0;
+    padding: 0 0 25px 0;
   }
   
   .card-stack {
     flex-direction: row;
-    gap: 1%;
-    height: 270px;
+    gap: 7px;
+    height: auto;
+    width: 100%;
   }
   
   .card-stack .cards {
     display: flex;
     flex-direction: column;
     align-items: center ;
-    width: 60%;
-    height: 70%;
-    gap: 7%;
-    padding: 5% 3%;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    gap: 10px;
+    padding: 10px 10px;
     border-radius: 0.5rem;
   }
   
   .cards-img {
-    width: 30%;
-    height: 30%;
+    /* align-items: center; */
+    /* height: 44px; */
+    padding: 0;
   }
   
   .card-title {
-    width: 100%;
-    text-align: center;
-    color: #ec5242;
+     text-align: center;
+     /* height: auto; */
+     /* padding-right: 0; */
+     width: auto;
+     padding: 0;
+     /* padding-bottom: 5px; */
   }
   
   .card-text {
-    width: 100%;
+    width: auto;
     text-align: center;
+    height: auto;
+    line-height: 22px;
+    padding: 0;
   }
   
-  #packages-offered .view-all {
+  .view-all {
+    display: flex;
     width: auto;
     height: auto;
     font-size: 14px;
     font-weight: 400;
     color: #fff;
-    /* padding: 3% 5%;
-    border-radius: 0.5rem; */
+    padding-top: 25px;
+    /*border-radius: 0.5rem; */
     /* margin-top: -50%; */
   }
 
@@ -620,15 +648,15 @@ h1 {
    display: none;
   }
   
-  .dynamic-speakers, .speaker-cards {
+  #speaker-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* justify-content: center;
-    align-items: center; */
+    /* align-items: center; */ */
     gap: 5%;
     width: auto;
     height: auto;
-    padding: 5% 5%;
+    margin: 50px;
   }
 
   /* .group1 {
@@ -656,16 +684,16 @@ h1 {
   }
   
   .speaker-images {
-    width: 50%;
-    height: 60%;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
   }
   
   .speaker-bgimages {
-    width: 30%;
-    height: 30%;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    margin-left: -50%;
+    margin-left: -45%;
   }
 
   .card-body {

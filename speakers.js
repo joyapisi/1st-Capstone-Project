@@ -85,4 +85,4 @@ const speakers = [{
   });
   
   // append dynamically created speakers section (speakersCard) to the id #dynamic-speakers in HTML 
-  document.getElementById('dynamic-speakers').innerHTML = speakersCard;
+  document.getElementById('speaker-cards').innerHTML = speakersCard;
