@@ -135,17 +135,18 @@ h1 {
 }
 
 #closeButton {
-  transform: translateY(0);
+  transform: translateY(-100%);
+  position: absolute;
   margin-top: 0;
-  margin-right: 7%;
-  padding: 5%;
+  margin-left: 25px;
+  padding: 10px;
   display: block;
   width: 12px;
   height: 12px;
   border: none;
   outline: none;
   background: transparent;
-  font-size: 34px;
+  font-size: 44px;
   color: #fff;
   z-index: 10;
 }
@@ -180,17 +181,6 @@ h1 {
 
   }
 
-  .intro-title1 {
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    background-image: url('./sources/orange.jpg');
-    background-size: 15%;
-    color: transparent;
-    -webkit-background-clip: text;
-  }
-  
   .intro-title2 {
     font-family: 'Lato', sans-serif;
     font-size: 32px;
@@ -200,6 +190,11 @@ h1 {
     color: transparent;
     -webkit-background-clip: text;
   } 
+  
+  #line-title {
+    display: flex;
+    color: #ec5242;
+  }
 
   .aboutintro1, .aboutintro2 {
     color: #ec5242;
@@ -225,7 +220,9 @@ h1 {
   .conference-info {
     display: flex;
     flex-direction: column;
-    padding: 10% 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
     gap: 24px;
     font-family: 'Lato', sans-serif;
     text-align: center;
@@ -237,7 +234,6 @@ h1 {
   }
   
   .about-logo {
-   margin-left: 30%;
    width: 100px;
    height: 100px;
   }
@@ -245,7 +241,7 @@ h1 {
   .prev-conf {
     display: flex;
     flex-direction: column;
-    padding: 5% 10%;
+    padding: 20px 40px;
     gap: 24px;
     font-family: 'Lato', sans-serif;
     text-align: center;
@@ -305,6 +301,7 @@ h1 {
     bottom: 50%;
     right: 45%;
     color: white;
+    padding-bottom: 10px;
   }
   
   .pastconf-paragraph1, .pastconf-paragraph2 {
@@ -319,8 +316,11 @@ h1 {
   }
   
   #footer1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     background-color: #292929;
-    height: 50%;
+    height: auto;
   }
   
   .sponsors-title {
@@ -328,8 +328,7 @@ h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    padding: 5%;
-    height: 70px;
+    padding: 25px 0 0 0;
     color: #fff;
     text-decoration-line: underline;
     text-decoration-color: #ec5242;
@@ -340,8 +339,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10%;
-    padding: 10%;
+    gap: 20px;
+    padding: 0 0 20px 0;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 32px;
@@ -446,9 +445,16 @@ h1 {
     }
   
     .main-logo {
-      /* width: 1%;
-      height: 1%; */
+      display: block;
+      padding: 0;
+      width: 50px;
+      height: 50px; 
     }
+  
+    .main-logo img {
+      width: 100%;
+      height: 100%;
+    }  
   
     #nav2 .nav2Item {
       color: #272a31;
@@ -500,10 +506,6 @@ h1 {
         display: none;
     }
 
-    .about-logo {
-      margin-left: 40%;
-    }
-
     .past-conf {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -527,7 +529,6 @@ h1 {
 
     .footer2-logo, .footer2-p {
       width: auto;
-      /* padding-left: 10%; */
     }
   
   }

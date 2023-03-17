@@ -139,17 +139,18 @@ h1 {
 }
 
 #closeButton {
-  transform: translateY(0);
+  transform: translateY(-100%);
+  position: absolute;
   margin-top: 0;
-  margin-right: 7%;
-  padding: 5%;
+  margin-left: 25px;
+  padding: 10px;
   display: block;
   width: 12px;
   height: 12px;
   border: none;
   outline: none;
   background: transparent;
-  font-size: 34px;
+  font-size: 44px;
   color: #fff;
   z-index: 10;
 }
@@ -259,7 +260,7 @@ h1 {
   align-items: center;
   width: auto;
   height: auto;
-  gap: 5px;
+  gap: 10px;
   padding: 0;
 }
 
@@ -310,7 +311,6 @@ h1 {
 }
 
 .view-all {
-  font-family: 'Lato', sans-serif;
   display: none;
 }
 
@@ -332,7 +332,7 @@ h1 {
   font-weight: 900;
   font-style: normal;
   text-align: center;
-  padding: 5%;
+  padding: 20px 10px 0 10px;
   color: #292929;
   text-decoration-line: underline;
   text-decoration-color: #ec5242;
@@ -396,9 +396,12 @@ h1 {
 }
 
 .view-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 90%;
-  margin-left: 5%;
-  padding: 3% 10%; 
+  margin: 0 10px 30px 20px;
+  padding: 10px 15px; 
   color: #5a5a5a;
   background-color: transparent;
   border: 1px solid #d3d3d3;
@@ -693,7 +696,7 @@ h1 {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin-left: -45%;
+    margin-left: -50%;
   }
 
   .card-body {
