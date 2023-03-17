@@ -7,7 +7,7 @@ HTML, CSS and JavaScript Project
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-- [ Video Explanation](#video-explanation)   
+- [🎥 Video Explanation](#video-explanation)   
 - [🚀 Live Demo](#live-demo)    
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -41,7 +41,7 @@ HTML, CSS and JavaScript Project
 </details>
 
 <!-- VIdeo Explanation -->
-## Video Explanation <a name="video-explanation"></a>
+## 🎥 Video Explanation <a name="video-explanation"></a>
 
 Click <li><a href="https://www.loom.com/share/854c5d30167b4fff93df665f69c5f912">here</a></li> to see a live demo of this project online: 
 
@@ -189,9 +189,10 @@ If you think that change is necessary - open a Pull Request in this repository a
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Feature_1]**
-- [ ] **[Feature_2]**
-- [ ] **[Feature_3]**
+- [Add popup button] **[Feature_1]**
+In my speakers section, I would like to make the view more button reveal more speeakers using DOM manipulation
+- [Create other pages] **[Feature_2]**
+This website only has the home page and about page. In the future, I would like to add other pages to it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
