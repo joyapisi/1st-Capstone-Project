@@ -1,16 +1,14 @@
-const NavList = document.getElementById('navList');
-// const Hamburger = document.getElementById('hamburger');
-const CloseButton = document.getElementById('closeButton');
+const navList = document.getElementById('navList');
+const closeButton = document.getElementById('closeButton');
 
 function menuPopup() {
-  NavList.classList.toggle('active');
-  // Hamburger.classList.toggle('active');
-  CloseButton.classList.toggle('active');
+  navList.classList.toggle('active');
+  closeButton.classList.toggle('active');
 
   if (window.innerWidth > 768) {
-    document.getElementById('navigationList').classList.toggle('active');
+    document.getElementById('navList').classList.toggle('active');
     return false;
   }
   return true;
 }
-NavList.addEventListener('click', menuPopup);
+navList.addEventListener('click', menuPopup);

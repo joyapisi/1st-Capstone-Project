@@ -44,7 +44,7 @@ HTML, CSS and JavaScript Project
 <!-- VIdeo Explanation -->
 ## 🎥 Video Explanation <a name="video-explanation"></a>
 
-Click <li><a href="https://www.loom.com/share/854c5d30167b4fff93df665f69c5f912">here</a></li> to see a live demo of this project online: 
+Click <li><a href="https://www.loom.com/share/3bd26067ac5a41078c91aacb17049eff">here</a></li> to see a live demo of this project online: 
 
 <!-- LIVE DEMO -->
 
