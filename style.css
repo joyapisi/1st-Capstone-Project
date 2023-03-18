@@ -42,7 +42,7 @@ h1 {
   position: fixed;
   width: 100%;
   height: 8%;
-  background-color: #fff;
+  background-color: transparent;
   z-index: 3;
 }
 
@@ -121,7 +121,7 @@ h1 {
   display: block;
   width: 18px;
   height: 18px;
-  padding-top: 3%;
+  padding-top: 5%;
   padding-left: 10%;
   z-index: 5;
   position: absolute;
@@ -149,13 +149,14 @@ h1 {
   outline: none;
   background: transparent;
   font-size: 44px;
-  color: #fff;
+  color: transparent;
   z-index: 10;
 }
 
 #closeButton.active {
   transform: translateY(0);
   cursor: pointer;
+  color: #fff;
 }
 
 .mobile-main {
@@ -515,7 +516,7 @@ h1 {
 
   .main-logo {
     display: block;
-    padding-right: 15%;
+    padding-right: 120px;
     width: 50px;
     height: 50px;
   }
@@ -748,5 +749,15 @@ h1 {
     line-height: 20px;
     text-align: left;
     width: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-logo {
+     margin-right: 350px;
+  }
+
+  .speaker-bgimages {
+    margin-left: -245px;
   }
 }
