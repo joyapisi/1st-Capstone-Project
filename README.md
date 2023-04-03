@@ -24,7 +24,7 @@ HTML, CSS and JavaScript Project
 # 📖 [Teen_Creators_Conference] <a name="Teen Conference"></a>
 
 
-**[Capstone_Project]** is a simple HTML, CSS and JavaScript project that uses a simple web design to create a UI in both mobile and desktop version, use JavaScript events and DOM elements to create pages dynamically. This project's content is personalized to a Teen Creators Conference that helps teenagers learn production using Adobe products.
+**[Teen_Creators_Conference]** is a HTML, CSS and JavaScript project that uses <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"> Behance </a> web design to create a UI in both mobile and desktop version, use JavaScript events and DOM elements to create pages dynamically. This project's content is personalized to a Teen Creators Conference that helps teenagers learn production using Adobe products.
 
 ## 🛠 Built With  <a name="built-with"></a>
 
