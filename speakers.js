@@ -16,7 +16,7 @@ const speakers = [{
 },
 {
   id: 3,
-  image1: './sources/Speaker3.jpg',
+  image1: './sources/Speaker5.jpg',
   bgImg: './sources/grey checker.png',
   speakerName: 'Blanca',
   speakerTitle: 'Graphics Designer',
