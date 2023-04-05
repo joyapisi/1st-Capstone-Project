@@ -8,7 +8,7 @@ const speakers = [{
 },
 {
   id: 2,
-  image1: './sources/Speaker2.jpg',
+  image1: './sources/speaker2.jpg',
   bgImg: './sources/grey checker.png',
   speakerName: 'Aurora',
   speakerTitle: '3D Illustrator',
