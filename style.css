@@ -174,9 +174,11 @@ h1 {
   padding: 20% 10% 10% 10%;
   width: auto;
   font-family: 'Lato', sans-serif;
-  background-image: linear-gradient(rgba(163, 163, 163, 0.9), rgba(163, 163, 163, 0.7)), url('./sources/home-bg.jpg');
+  background-image: url('./sources/mainHomeBGalt1\ \(1\).jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-position: -180deg;
+ 
 }
 
 .intro-title1 {
@@ -184,9 +186,9 @@ h1 {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  background-image: url('./sources/orange.jpg');
-  background-size: 50px;
-  color: transparent;
+  background: -webkit-linear-gradient(45deg, rgb(252, 185, 2), rgb(255, 58, 9));
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
@@ -194,9 +196,9 @@ h1 {
   font-family: 'Lato', sans-serif;
   font-size: 32px;
   font-weight: 700;
-  background-image: url('./sources/orange.jpg');
-  background-size: 60px;
-  color: transparent;
+  background: -webkit-linear-gradient(45deg, rgb(252, 185, 2), rgb(255, 58, 9));
+  background-size: contain;
+  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
@@ -204,6 +206,7 @@ h1 {
   border: 1px solid #fff;
   background-color: #fff;
   border-radius: 1rem;
+  box-shadow: 3px 2px 2px #e4e4e4;
   width: 90%;
   padding: 5%;
   font-family: 'Lato', sans-serif;
