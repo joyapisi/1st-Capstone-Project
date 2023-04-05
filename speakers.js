@@ -1,6 +1,6 @@
 const speakers = [{
   id: 1,
-  image1: './sources/speaker1.jpg',
+  image1: './sources/Speaker1.jpg',
   bgImg: './sources/grey checker.png',
   speakerName: 'Archie',
   speakerTitle: 'Animator',
@@ -8,7 +8,7 @@ const speakers = [{
 },
 {
   id: 2,
-  image1: './sources/speaker2.jpg',
+  image1: './sources/Speaker2.jpg',
   bgImg: './sources/grey checker.png',
   speakerName: 'Aurora',
   speakerTitle: '3D Illustrator',
@@ -16,7 +16,7 @@ const speakers = [{
 },
 {
   id: 3,
-  image1: './sources/speaker3.jpg',
+  image1: './sources/Speaker3.jpg',
   bgImg: './sources/grey checker.png',
   speakerName: 'Blanca',
   speakerTitle: 'Graphics Designer',
@@ -24,7 +24,7 @@ const speakers = [{
 },
 {
   id: 4,
-  image1: './sources/speaker4.jpg',
+  image1: './sources/Speaker4.jpg',
   bgImg: './sources/grey checker.png',
   speakerName: 'Gibron',
   speakerTitle: 'Voice Editor',
@@ -32,7 +32,7 @@ const speakers = [{
 },
 {
   id: 5,
-  image1: './sources/speaker5.jpg',
+  image1: './sources/Speaker5.jpg',
   bgImg: './sources/grey checker.png',
   speakerName: 'Keller',
   speakerTitle: 'AfterEffects Artist',
@@ -40,7 +40,7 @@ const speakers = [{
 },
 {
   id: 6,
-  image1: './sources/speaker6.jpg',
+  image1: './sources/Speaker6.jpg',
   bgImg: './sources/grey checker.png',
   speakerName: 'Joy',
   speakerTitle: 'Video Editor',
